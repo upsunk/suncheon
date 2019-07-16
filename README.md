@@ -1,4 +1,4 @@
-# suncheon
+# sunland
 
 ## Project setup
 ```
@@ -27,3 +27,22 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## firebase deploy
+
+```bash
+$ yarn firebase:deploy
+```
+
+## firebase config file
+```javascript
+export default {
+  apiKey: '...',
+  authDomain: 'x.firebaseapp.com',
+  databaseURL: 'https://x.firebaseio.com',
+  projectId: 'x',
+  storageBucket: '',
+  messagingSenderId: '111',
+  appId: '12'
+}
+```
